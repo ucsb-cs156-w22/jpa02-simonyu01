@@ -41,9 +41,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <mainClass>edu.ucsb.cs56.pconrad.menuitem.MenuItem</mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
     </properties>
 
     <!-- (22) <dependencyManagement/> -->
