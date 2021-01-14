@@ -33,7 +33,7 @@ public class MenuItem {
      * right justified in a field with the specified width.
      * For example "$0.99", "$10.99", or "$3.50".
      * <p>
-     * If the width is too small, throws IllegalArgumentException
+     * If the width is too small, throws TooNarrowException
      *
      * @param width width of returned string
      */
