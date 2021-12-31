@@ -14,13 +14,13 @@
     <artifactId>menuitem</artifactId>
 
     <!-- (4) <version/> -->
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <!-- (5) <packaging/> -->
     <!-- (6) <name/> -->
     <!-- (7) <description/> -->
 
-    <description>jpa01 for CS156, W20</description>
+    <description>jpa01 for CS156, W22</description>
 
     <!-- (8) <url/> -->
     <!-- (9) <inceptionYear/> -->
@@ -38,7 +38,7 @@
     <!-- (21) <properties/> -->
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -51,7 +51,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13.1</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -66,16 +66,16 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
+                <version>3.8.1</version>
                 <configuration>
-                    <release>11</release>
+                    <release>17</release>
                 </configuration>
             </plugin>
 
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.5</version>
+                <version>0.8.7</version>
                 <executions>
                     <execution>
                         <goals>
@@ -95,7 +95,7 @@
             <plugin>
                 <groupId>org.pitest</groupId>
                 <artifactId>pitest-maven</artifactId>
-                <version>1.5.2</version>
+                <version>1.7.3</version>
                 <configuration>
                     <targetClasses>
                         <param>edu.*</param>
