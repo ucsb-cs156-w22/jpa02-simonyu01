@@ -16,7 +16,9 @@ public class MenuItem {
 
 
     public MenuItem(String name, int priceInCents, String category) {
-        // stub
+        this.name = name;
+        this.priceInCents = priceInCents;
+        this.category = category;
     }
 
     /**
@@ -25,7 +27,8 @@ public class MenuItem {
      */
 
     public String getPrice() {
-        return "stub";
+        double price = priceInCents/100.;
+        return "$" + price;
     }
 
     /**
@@ -39,7 +42,16 @@ public class MenuItem {
      */
 
     public String getPrice(int width) {
-        return "stub";
+        double dollarAmt = priceInCents/100.;
+        String price = "$" + dollarAmt;
+        if(price.length() > width) {
+            throw new TooNarrowException();
+        }
+        String res = "";
+        for(int i = 0; i < width - price.length(); i++) {
+            res += " ";
+        }        
+        return res + price;
     }
 
     /**
@@ -51,7 +63,7 @@ public class MenuItem {
 
     @Override
     public String toString() {
-        return "stub";
+        return name + "," + priceInCents + "," + category;
     }
 
 }
