@@ -1,27 +1,10 @@
 # jpa02-simonyu01
 
-
-* TODO: Correct the links to repo below, 
-  then delete this TODO.  Replace it with 
-  a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-w22/jpa02-cgaucho
-
 Repo: https://github.com/ucsb-cs156-w22/jpa02-simonyu01
-
-* TODO: Correct the links to app on Heroku below, 
-  then delete this TODO.  Replace it with 
-  a link to your running app on Heroku, e.g.
-  https://cs156-w22-jpa02-cgaucho.herokuapp.com
-
 
 On Heroku: https://jpa02-simonyu.herokuapp.com/
 
-* TODO: Correct the links to codecov report below
-  then delete this TODO.  Replace it with 
-  a link to your codecov report.
-
-On Codecov: https://codecov.io/gh/ucsb-cs156-w22/jpa02-cgaucho
-
+On Codecov: https://codecov.io/gh/ucsb-cs156-w22/jpa02-simonyu01
 
 # About this repo
 
