@@ -54,6 +54,18 @@ public class MenuItem {
         return res + price;
     }
 
+    public String getCategory() {
+        return category;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getPriceInCents() {
+        return priceInCents;
+    }
+
     /**
      * return a string in csv format, in the order name,price,cateogry.
      * For example <code>Small Poke Bowl,1049,Poke Bowls</code>
